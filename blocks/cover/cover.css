@@ -8,14 +8,21 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1279px) {
   .cover {
-    margin: 44px auto 44px auto;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    margin-top: 90px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    margin: 32px auto 32px auto;
+    margin-top: 66px;
   }
 }
