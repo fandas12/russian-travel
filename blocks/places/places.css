@@ -3,14 +3,22 @@
   margin: 92px auto 0;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .places {
+    margin-right: 148px;
+    margin-left: 148px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    margin-top: 92px;
     margin-right: 48px;
     margin-left: 48px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .places {
     margin-top: 88px;
     margin-right: 24px;
@@ -18,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 320px) {
   .places {
     margin-top: 64px;
     margin-right: 0;
