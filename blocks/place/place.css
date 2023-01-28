@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0 0 80px;
   display: grid;
-  grid-template-columns: calc(440px + 20 * ((100vw - 1024px) / (1280 - 1024))) 1fr;
   grid-template-rows: minmax(min-content, max-content) 1fr;
   column-gap: 40px;
   row-gap: 48px;
@@ -16,16 +15,15 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px), (min-width: 1280px) {
   .place {
     column-gap: 32px;
+    grid-template-columns: calc(440px + 20 * ((100vw - 1024px) / (1280 - 1024))) 1fr;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .place {
-    margin-bottom: 73px;
-    grid-template-columns: calc(340px + 100 * ((100vw - 768px) / (1280 - 768))) 1fr;
     column-gap: 28px;
   }
 }
