@@ -5,7 +5,6 @@
   justify-content: space-between;
 }
 
-
 @media screen and (max-width: 1024px) {
   .footer {
     margin-top: 88px;
@@ -21,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 320px), (max-width: 722px) {
+@media screen and (max-width: 320px) {
   .footer {
     margin-top: 64px;
     margin-right: 16px;
